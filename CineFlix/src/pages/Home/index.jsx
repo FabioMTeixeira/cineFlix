@@ -23,7 +23,7 @@ function Home() {
   return (
     <div className='container-home'>
       <Header />
-      <div>
+      <section className='section-movies'>
         {console.log(movies)}
         {movies.map((movie) => (
           <Card
@@ -32,7 +32,7 @@ function Home() {
             fundo={movie.poster_path}
           />
         ))}
-      </div>
+      </section>
       <Footer />
     </div>
   );
