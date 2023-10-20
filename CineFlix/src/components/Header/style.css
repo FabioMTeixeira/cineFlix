@@ -26,4 +26,8 @@ header {
     .logo {
         margin: 3rem 0;
     }
+
+    header {
+        margin: 0;
+    }
 }
